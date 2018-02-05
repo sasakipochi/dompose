@@ -1,0 +1,5 @@
+dompose:
+  image: alpine
+  volumes:
+    - .:/tmp
+  command: /tmp/dompose
